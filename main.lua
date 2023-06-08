@@ -3,7 +3,7 @@ http = require("socket.http")
 local body, code = socket.http.request("https://users.roblox.com/v1/users/3687992703")
 if not body then error(code) end
 
-return print(body)
+return print("hi")
 
 --[[ read local file 
 local open = io.open
